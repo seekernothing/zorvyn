@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Green rounded background -->
+  <rect width="32" height="32" rx="8" fill="#16a34a"/>
+
+  <!-- Rising bars -->
+  <rect x="4"  y="22" width="5" height="6" rx="1.5" fill="white" opacity="0.5"/>
+  <rect x="11" y="17" width="5" height="11" rx="1.5" fill="white" opacity="0.72"/>
+  <rect x="18" y="11" width="5" height="17" rx="1.5" fill="white" opacity="0.92"/>
+
+  <!-- Trend line connecting bar tops -->
+  <polyline
+    points="6.5,22  13.5,17  20.5,11"
+    stroke="white"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.65"
+    fill="none"
+  />
+
+  <!-- Dot at peak -->
+  <circle cx="20.5" cy="11" r="1.8" fill="white" opacity="0.95"/>
+</svg>
