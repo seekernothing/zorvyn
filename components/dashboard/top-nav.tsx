@@ -90,7 +90,7 @@ export function TopNav() {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="hidden sm:flex h-8 gap-1.5 rounded-xl px-3 text-xs font-medium"
+                  className="flex h-8 gap-1.5 rounded-xl px-3 text-xs font-medium"
                 >
                   {role === "admin" ? (
                     <Shield className="size-3.5 text-brand" />
